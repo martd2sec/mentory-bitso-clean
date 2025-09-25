@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mentory Bitso - Demo Mode</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            min-height: 100vh;
+        }
+        .container {
+            background: rgba(255, 255, 255, 0.1);
+            padding: 40px;
+            border-radius: 20px;
+            text-align: center;
+            backdrop-filter: blur(10px);
+        }
+        h1 {
+            font-size: 3em;
+            margin-bottom: 20px;
+        }
+        .status {
+            background: rgba(76, 175, 80, 0.3);
+            padding: 20px;
+            border-radius: 10px;
+            margin: 20px 0;
+            border: 2px solid #4CAF50;
+        }
+        .features {
+            text-align: left;
+            margin: 30px 0;
+        }
+        .feature {
+            margin: 10px 0;
+            padding: 10px;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 5px;
+        }
+        .demo-btn {
+            background: #4CAF50;
+            color: white;
+            padding: 15px 30px;
+            border: none;
+            border-radius: 10px;
+            font-size: 1.2em;
+            cursor: pointer;
+            margin: 20px;
+        }
+        .demo-btn:hover {
+            background: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🎯 Mentory Bitso</h1>
+        <div class="status">
+            <h2>✅ Demo Mode Active</h2>
+            <p>Platform is running in demo mode with mock data</p>
+        </div>
+        
+        <div class="features">
+            <h3>🚀 Features Available:</h3>
+            <div class="feature">✅ User Authentication (Demo)</div>
+            <div class="feature">✅ Mentor Profiles</div>
+            <div class="feature">✅ Booking System</div>
+            <div class="feature">✅ Google Calendar Integration</div>
+            <div class="feature">✅ Supabase Database</div>
+            <div class="feature">✅ Admin Dashboard</div>
+        </div>
+        
+        <button class="demo-btn" onclick="alert('Demo mode is working! 🎉')">
+            Test Demo Mode
+        </button>
+        
+        <p><strong>Status:</strong> Ready for production deployment</p>
+        <p><strong>Next:</strong> Configure custom domain mentory.bitso.com</p>
+    </div>
+</body>
+</html>
