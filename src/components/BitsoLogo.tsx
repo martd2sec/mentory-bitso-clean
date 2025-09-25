@@ -1,4 +1,5 @@
 import React from 'react';
+import bitsoLogo from '/bitso-logo.png';
 
 interface BitsoLogoProps {
   size?: number;
@@ -8,7 +9,7 @@ interface BitsoLogoProps {
 const BitsoLogo: React.FC<BitsoLogoProps> = ({ size = 32, className = "" }) => {
   return (
     <img
-      src="/mentory-bitso-clean/bitso-logo.png"
+      src={bitsoLogo}
       alt="Bitso Logo"
       width={size}
       height={size}
